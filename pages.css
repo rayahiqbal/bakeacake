@@ -15,19 +15,19 @@ body {
 
 .lined-paper {
     position: relative;
-    width: 350px; /* Increased width */
-    height: 400px; /* Increased height */
+    width: 350px; 
+    height: 400px; 
     background: #fff;
     border: 2px solid #ccc;
-    padding: 15px; /* Increased padding */
+    padding: 15px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .line {
-    height: 16px; /* Increased line height */
+    height: 16px; 
     width: 100%;
     background: repeating-linear-gradient(transparent, transparent 2px, #ccc 2px, #ccc 4px);
-    margin-bottom: 8px; /* Increased margin */
+    margin-bottom: 8px; 
 }
 
 .content {
@@ -35,26 +35,26 @@ body {
 }
 
 h1 {
-    font-size: 2em; /* Increased font size */
-    margin-bottom: 15px; /* Increased margin */
+    font-size: 2em; 
+    margin-bottom: 15px; 
     color: #555;
 }
 
 p {
-    font-size: 1.2em; /* Increased font size */
+    font-size: 1.2em; 
     color: #555;
 }
 
 .arrow {
-    margin-top: 30px; /* Increased margin */
+    margin-top: 30px; 
 }
 
 .arrow a {
     text-decoration: none;
-    font-size: 1.4em; /* Increased font size */
+    font-size: 1.4em; 
     color: #fff;
     background: #FFB6C1;
-    padding: 12px 24px; /* Increased padding */
+    padding: 12px 24px; 
     border-radius: 20px;
     transition: background 0.3s;
 }
