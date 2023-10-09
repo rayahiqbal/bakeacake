@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+    font-family: 'Patrick Hand', cursive;
+    margin: 0;
+    background: repeating-linear-gradient(45deg, #E1F5FE, #E1F5FE 25px, #B3E5FC 25px, #B3E5FC 50px);
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.lined-paper {
+    position: relative;
+    width: 350px; /* Increased width */
+    height: 400px; /* Increased height */
+    background: #fff;
+    border: 2px solid #ccc;
+    padding: 15px; /* Increased padding */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.line {
+    height: 16px; /* Increased line height */
+    width: 100%;
+    background: repeating-linear-gradient(transparent, transparent 2px, #ccc 2px, #ccc 4px);
+    margin-bottom: 8px; /* Increased margin */
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em; /* Increased font size */
+    margin-bottom: 15px; /* Increased margin */
+    color: #555;
+}
+
+p {
+    font-size: 1.2em; /* Increased font size */
+    color: #555;
+}
+
+.arrow {
+    margin-top: 30px; /* Increased margin */
+}
+
+.arrow a {
+    text-decoration: none;
+    font-size: 1.4em; /* Increased font size */
+    color: #fff;
+    background: #FFB6C1;
+    padding: 12px 24px; /* Increased padding */
+    border-radius: 20px;
+    transition: background 0.3s;
+}
+
+.arrow a:hover {
+    background: #FFC0CB;
+}
