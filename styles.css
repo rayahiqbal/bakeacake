@@ -152,9 +152,9 @@ body1 {
 }
 
 #webring {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
+    position: fixed;
+    bottom: 43px;
+    left: 10px;
     padding: 30px;
 }
 
