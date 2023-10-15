@@ -151,7 +151,17 @@ body1 {
     transition: background-color 0.3s;
 }
 
+#webring {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 30px;
+}
 
+
+#webring-link {
+    color: white;
+}
 
 
 
